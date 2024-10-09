@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Certificados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generador de Certificados</h1>
+    <form id="certificateForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="cedula">Cédula:</label>
+        <input type="text" id="cedula" name="cedula" required>
+
+        <label for="cargo">Cargo:</label>
+<select id="cargo" name="cargo" required>
+    <option value="" disabled selected>Selecciona un cargo</option>
+    <option value="Consultora de belleza">Consultora de ventas</option>
+    <option value="Gerente de ventas">Directora de ventas</option>
+
+</select>
+
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required>
+
+        <label for="grupo">Grupo:</label>
+        <input type="text" id="grupo" name="grupo" required>
+
+        <label for="fecha_ingreso">Fecha de Ingreso:</label>
+        <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
+
+        <label for="monto_venta">Monto de Venta Mensual:</label>
+        <input type="number" id="monto_venta" name="monto_venta" required>
+
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" required>
+
+        <button type="submit">Generar Certificado</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
