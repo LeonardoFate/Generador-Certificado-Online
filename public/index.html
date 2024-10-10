@@ -10,35 +10,68 @@
     <h1 class="centrado">Generador de Certificados YANBAL Online</h1>
     <form id="certificateForm">
       <label for="name">Nombre y Apellido:</label>
-      <input type="text" id="name" name="name" placeholder="Ingresa tu primer Nombre y Apellido" required />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Ingresa tu primer Nombre y Apellido"
+        required
+      />
 
       <label for="cedula">Cédula:</label>
-      <input type="text" id="cedula" name="cedula" placeholder="Ingresa tu Cédula" required />
+      <input
+        type="text"
+        id="cedula"
+        name="cedula"
+        placeholder="Ingresa tu Cédula"
+        required
+      />
 
       <label for="cargo">Rol:</label>
       <select id="cargo" name="cargo" required>
         <option value="" disabled selected>Selecciona tu rol</option>
-        <option value="Consultor/a Emprendedor Independiente">Consultor/a Emprendedor Independiente</option>
-        <option value="Director/a Independiente">Director/a Independiente</option>
+        <option value="Consultor/a Emprendedor Independiente">
+          Consultor/a Emprendedor Independiente
+        </option>
+        <option value="Director/a Independiente">
+          Director/a Independiente
+        </option>
       </select>
 
       <label for="codigo">Código:</label>
-      <input type="text" id="codigo" name="codigo" placeholder="Ingresa tu codigo de consultora" required />
+      <input
+        type="text"
+        id="codigo"
+        name="codigo"
+        placeholder="Ingresa tu codigo de consultora"
+        required
+      />
 
       <label for="grupo">Grupo:</label>
-      <input type="text" id="grupo" name="grupo" placeholder="Ingresa el grupo al que perteneces" required />
+      <input
+        type="text"
+        id="grupo"
+        name="grupo"
+        placeholder="Ingresa el grupo al que perteneces"
+        required
+      />
 
       <label for="fecha_ingreso">Fecha de Ingreso:</label>
       <input type="date" id="fecha_ingreso" name="fecha_ingreso" required />
 
       <label for="monto_venta">Monto de Venta Mensual:</label>
-      <input type="number" id="monto_venta" name="monto_venta" placeholder="Ingresa tu monto de venta mensual" required />
+      <input
+        type="number"
+        id="monto_venta"
+        name="monto_venta"
+        placeholder="Ingresa tu monto de venta mensual"
+        required
+      />
 
       <label for="status">Status:</label>
       <select id="status" name="status" required>
         <option value="" disabled selected>Selecciona tu status</option>
         <option value="C.C.C">C.C.C</option>
-
       </select>
 
       <button type="submit">Generar Certificado</button>
