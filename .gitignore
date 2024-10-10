@@ -28,3 +28,6 @@ npm-debug.log*
 coverage/
 *.tgz
 *.tmp
+
+# Local Netlify folder
+.netlify
