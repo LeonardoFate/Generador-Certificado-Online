@@ -6,8 +6,17 @@ Se creo para una Directora de ventas de yanbal para que sus consultoras de venta
 
 ## Características
 - Generación de certificados en formato PDF.
-- Personalización de datos como nombre, cédula, cargo, código, grupo, fecha de ingreso, monto de venta y estado.
+- Personalización de datos como:
+  - Nombre
+  - Cédula
+  - Cargo
+  - Código
+  - Grupo
+  - Fecha de ingreso
+  - Monto de venta
+  - Estado
 - Descarga automática del certificado.
+
 
 ## Tecnologías Utilizadas
 - Node.js
