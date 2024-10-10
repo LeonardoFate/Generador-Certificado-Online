@@ -6,7 +6,8 @@ exports.generateCertificate = (req, res, next) => {
 
     const doc = new PDFDocument();
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'attachment; filename="certificado.pdf"');
+    res.setHeader('Content-Disposition', `attachment; filename="Certificado-Yanbal.pdf"`);
+
 
     // Configura la posición inicial
     const pageWidth = doc.page.width;

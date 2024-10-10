@@ -18,7 +18,7 @@ document.getElementById('certificateForm').addEventListener('submit', async (e) 
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'certificado.pdf';
+    a.download = `Certificado-Yanbal.pdf`;
     document.body.appendChild(a);
     a.click();
     a.remove();
