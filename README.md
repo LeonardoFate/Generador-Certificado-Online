@@ -18,7 +18,7 @@ Se creo para una Directora de ventas de yanbal para que sus consultoras de venta
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone (https://github.com/LeonardoFate/Generador-Certificado-Online)
+   git clone https://github.com/LeonardoFate/Generador-Certificado-Online
 
 2. Navega al directorio del proyecto:
    ```bash
