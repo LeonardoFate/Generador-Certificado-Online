@@ -1,4 +1,4 @@
-const { generateCertificatePDF } = require('../../certificateController'); // Importamos la lógica del controlador
+const { generateCertificatePDF } = require('../../controllers/certificateController'); // Importamos la lógica del controlador
 
 exports.handler = async (event, context) => {
   try {
